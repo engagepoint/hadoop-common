@@ -305,8 +305,8 @@ public class UserGroupInformation {
   private static String getOSLoginModuleName() {
     if (ibmJava) {
       if (windows) {
-        return is64Bit ? "com.ibm.security.auth.module.Win64LoginModule"
-            : "com.ibm.security.auth.module.NTLoginModule";
+        return is64Bit ? "com.ibm.security.auth.module.Win64ActiveLoginModule"
+            : "com.ibm.security.auth.module.NTActiveLoginModule2000";
       } else if (aix) {
         return is64Bit ? "com.ibm.security.auth.module.AIX64LoginModule"
             : "com.ibm.security.auth.module.AIXLoginModule";

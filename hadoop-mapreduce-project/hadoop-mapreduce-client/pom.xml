@@ -67,7 +67,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-common</artifactId>
+      <artifactId>hadoop-common-ep</artifactId>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -108,7 +108,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-common</artifactId>
+      <artifactId>hadoop-common-ep</artifactId>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>

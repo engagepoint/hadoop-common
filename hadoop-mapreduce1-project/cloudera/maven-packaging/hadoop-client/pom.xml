@@ -34,7 +34,7 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
-      <artifactId>hadoop-common</artifactId>
+      <artifactId>hadoop-common-ep</artifactId>
       <scope>compile</scope>
       <version>${cdh.hadoop.version}</version>
       <exclusions>
